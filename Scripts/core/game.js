@@ -42,7 +42,9 @@
         if (currentState != objects.Game.currentScene) {
             Main();
         }
-        currentScene.Update();
+        if (currentScene != null) {
+            currentScene.Update();
+        }
         stage.update(); //redraws stage
     }
     function Main() {

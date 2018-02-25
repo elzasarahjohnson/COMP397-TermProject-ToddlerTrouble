@@ -52,7 +52,9 @@
       Main();
     }
 
-    currentScene.Update();
+    if (currentScene != null) {
+      currentScene.Update();
+    }
 
     stage.update(); //redraws stage
   }
