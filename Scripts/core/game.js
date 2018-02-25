@@ -26,7 +26,6 @@
         assetManager.installPlugin(createjs.Sound); //assest manager can also load sound
         assetManager.loadManifest(assetManifest);
         assetManager.on("complete", Start, this);
-        Start();
     }
     function Start() {
         console.log("Starting Application");
