@@ -14,7 +14,9 @@ var objects;
         __extends(Scene, _super);
         //Constructor
         function Scene(assetManager) {
-            return _super.call(this) || this;
+            var _this = _super.call(this) || this;
+            _this.assetManager = assetManager;
+            return _this;
         }
         //Private Methods
         //Public Methods

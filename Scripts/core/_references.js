@@ -6,5 +6,5 @@
 /// <reference path="../../Scripts/Scenes/start.ts"/>
 /// <reference path="../../Scripts/Scenes/over.ts"/>
 /// <reference path="../../Scripts/Scenes/play.ts"/>
-/// <reference path="../../Scripts/Scenes/start.ts"/>
+/// <reference path="../../Scripts/Scenes/start.ts"/> 
 //# sourceMappingURL=_references.js.map

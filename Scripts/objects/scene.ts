@@ -8,6 +8,7 @@ module objects {
         //Constructor
         constructor(assetManager: createjs.LoadQueue) {
             super();
+            this.assetManager = assetManager;
         }
 
         //Private Methods
