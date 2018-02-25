@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@types/easeljs": "^1.0.0",
+    "@types/preloadjs": "^0.6.32",
+    "@types/soundjs": "^0.6.27",
+    "@types/tweenjs": "^0.6.27",
+    "easeljs": "^1.0.2",
+    "preloadjs": "^1.0.1",
+    "soundjs": "^1.0.1",
+    "tweenjs": "^1.0.2"
+  },
+  "name": "comp397-w2018-lesson1b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
